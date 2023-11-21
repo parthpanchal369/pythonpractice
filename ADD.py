@@ -182,16 +182,65 @@
 
 # 13. python program to print all prime numbers       13-------------------------
 
-lower = int(input("Enter your lower number: "))
-upper = int(input("Enter your upper number: "))
+# lower = int(input("Enter your lower number: "))
+# upper = int(input("Enter your upper number: "))
+#
+# for num in range(lower,upper+1):
+#
+#     if num > 1:
+#
+#         for i in range(2,num):
+#             if num % i ==0:
+#                 break
+#
+#         else:
+#             print(num)
 
-for num in range(lower,upper+1):
+# 14. Python program to covert celsius to farenhit           14--------------
+# c = int(input("Enter your celsius"))
+# cf = c*(9/5) + 32
+# print(cf)
 
-    if num > 1:
+# 15. Find the factorial of number               15----------------
 
-        for i in range(2,num):
-            if num % i ==0:
-                break
+# num = int(input("Enter your number: "))
+#
+# fact = 1
+#
+# if num < 0:
+#     print("Factorial of less than 0 is dose not exist")
+#
+# if num == 0:
+#     print("The factorial of 0 is ", 1 )
+#
+# if num > 0:
+#     for i in range(1,num+1):
+#         fact = fact*i
+#
+# print(f" The factorial of {num} is {fact}")
 
-        else:
-            print(num)
+# Second method using recursion
+# def fact(num):
+#     if num == 0:
+#         return 1
+#
+#     else:
+#         return ((num) * fact(num-1))
+#
+# num1  = int(input("Enter your number: "))
+# result = fact(num1)
+# print(result)
+
+# 16. Display the multiplication of table           16 --------------------
+
+# num1 = int(input("Enter the number you want to table: "))
+#
+# for i in range(1,11):
+#     print(f"{num1} x {i} = {num1*i}")
+
+# num = int(input("Enter your number"))
+# i = 0
+# while i <= 10:
+#     print(f"{num} x {i} = {num*i}")
+#     i = i+1
+
